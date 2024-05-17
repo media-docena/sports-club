@@ -88,17 +88,17 @@ namespace PIclubdeportivo
                 // quiere decir que el resultado tiene 1 fila por lo que el usuario EXISTE
                 MessageBox.Show("Ingreso exitoso", "MENSAJE DEL SISTEMA", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
+                // La siguiente línea permite tomar el dominio de la primera columna
+                // de la primera fila del resultado de la ejecucion de la query
+
+                Datos.Sesion.Rol = Convert.ToString(tablaLogin.Rows[0][0]);
+                Datos.Sesion.Usuario = Convert.ToString(txtUsuario.Text);
+
                 /*
                  Una vez que tenemos la conexion establecida PASAMOS al formulario PRINCIPAL
                  Se debe "Instanciar" un objeto de la clase formulario principal
                  */
                 frmPrincipal principal = new frmPrincipal();
-
-                // La siguiente línea permite tomar el dominio de la primera columna
-                // de la primera fila del resultado de la ejecucion de la query
-
-                principal.rol = Convert.ToString(tablaLogin.Rows[0][0]); 
-                principal.usuario = Convert.ToString(txtUsuario.Text);
                 principal.Show(); // se llama al formulario principal
                 this.Hide(); // se oculta el formulario del login
 

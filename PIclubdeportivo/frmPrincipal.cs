@@ -12,13 +12,13 @@ namespace PIclubdeportivo
 {
     public partial class frmPrincipal : Form
     {
+        internal string rol = Datos.Sesion.Rol;
+        internal string usuario = Datos.Sesion.Usuario;
         public frmPrincipal()
         {
             InitializeComponent();
         }
 
-        internal string? rol;
-        internal string? usuario;
         private void frmPrincipal_Load(object sender, EventArgs e)
         {
             lblIngreso.Text = "USUARIO: " + usuario + " " + "(" + rol + ")";
