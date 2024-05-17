@@ -22,7 +22,7 @@ namespace PIclubdeportivo.Datos
             this.servidor = "localhost";
             this.puerto = "3306";
             this.usuario = "root";
-            this.clave = "yuucohEN1984";
+            this.clave = "";
         }
         // proceso de interacción
         public MySqlConnection CrearConexion()
