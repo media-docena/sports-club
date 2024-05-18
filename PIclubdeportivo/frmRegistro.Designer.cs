@@ -28,6 +28,12 @@
         private void InitializeComponent()
         {
             pnlRegCRight = new System.Windows.Forms.Panel();
+            lblAsterisco6 = new System.Windows.Forms.Label();
+            lblAsterisco5 = new System.Windows.Forms.Label();
+            lblAsterisco4 = new System.Windows.Forms.Label();
+            lblAsterisco3 = new System.Windows.Forms.Label();
+            lblAsterisco2 = new System.Windows.Forms.Label();
+            lblAsterisco1 = new System.Windows.Forms.Label();
             cboTipoC = new System.Windows.Forms.ComboBox();
             txtDNIC = new System.Windows.Forms.TextBox();
             txtCorreoC = new System.Windows.Forms.TextBox();
@@ -46,12 +52,6 @@
             lblRegC = new System.Windows.Forms.Label();
             picRegC = new System.Windows.Forms.PictureBox();
             pnlRegCLeft = new System.Windows.Forms.Panel();
-            lblAsterisco1 = new System.Windows.Forms.Label();
-            lblAsterisco2 = new System.Windows.Forms.Label();
-            lblAsterisco3 = new System.Windows.Forms.Label();
-            lblAsterisco4 = new System.Windows.Forms.Label();
-            lblAsterisco5 = new System.Windows.Forms.Label();
-            lblAsterisco6 = new System.Windows.Forms.Label();
             pnlRegCRight.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)picRegC).BeginInit();
             pnlRegCLeft.SuspendLayout();
@@ -88,6 +88,72 @@
             pnlRegCRight.Size = new System.Drawing.Size(909, 739);
             pnlRegCRight.TabIndex = 1;
             // 
+            // lblAsterisco6
+            // 
+            lblAsterisco6.AutoSize = true;
+            lblAsterisco6.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
+            lblAsterisco6.ForeColor = System.Drawing.Color.Red;
+            lblAsterisco6.Location = new System.Drawing.Point(791, 473);
+            lblAsterisco6.Name = "lblAsterisco6";
+            lblAsterisco6.Size = new System.Drawing.Size(19, 22);
+            lblAsterisco6.TabIndex = 26;
+            lblAsterisco6.Text = "*";
+            // 
+            // lblAsterisco5
+            // 
+            lblAsterisco5.AutoSize = true;
+            lblAsterisco5.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
+            lblAsterisco5.ForeColor = System.Drawing.Color.Red;
+            lblAsterisco5.Location = new System.Drawing.Point(461, 471);
+            lblAsterisco5.Name = "lblAsterisco5";
+            lblAsterisco5.Size = new System.Drawing.Size(19, 22);
+            lblAsterisco5.TabIndex = 25;
+            lblAsterisco5.Text = "*";
+            // 
+            // lblAsterisco4
+            // 
+            lblAsterisco4.AutoSize = true;
+            lblAsterisco4.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
+            lblAsterisco4.ForeColor = System.Drawing.Color.Red;
+            lblAsterisco4.Location = new System.Drawing.Point(640, 393);
+            lblAsterisco4.Name = "lblAsterisco4";
+            lblAsterisco4.Size = new System.Drawing.Size(19, 22);
+            lblAsterisco4.TabIndex = 24;
+            lblAsterisco4.Text = "*";
+            // 
+            // lblAsterisco3
+            // 
+            lblAsterisco3.AutoSize = true;
+            lblAsterisco3.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
+            lblAsterisco3.ForeColor = System.Drawing.Color.Red;
+            lblAsterisco3.Location = new System.Drawing.Point(640, 319);
+            lblAsterisco3.Name = "lblAsterisco3";
+            lblAsterisco3.Size = new System.Drawing.Size(19, 22);
+            lblAsterisco3.TabIndex = 23;
+            lblAsterisco3.Text = "*";
+            // 
+            // lblAsterisco2
+            // 
+            lblAsterisco2.AutoSize = true;
+            lblAsterisco2.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
+            lblAsterisco2.ForeColor = System.Drawing.Color.Red;
+            lblAsterisco2.Location = new System.Drawing.Point(640, 239);
+            lblAsterisco2.Name = "lblAsterisco2";
+            lblAsterisco2.Size = new System.Drawing.Size(19, 22);
+            lblAsterisco2.TabIndex = 22;
+            lblAsterisco2.Text = "*";
+            // 
+            // lblAsterisco1
+            // 
+            lblAsterisco1.AutoSize = true;
+            lblAsterisco1.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
+            lblAsterisco1.ForeColor = System.Drawing.Color.Red;
+            lblAsterisco1.Location = new System.Drawing.Point(640, 158);
+            lblAsterisco1.Name = "lblAsterisco1";
+            lblAsterisco1.Size = new System.Drawing.Size(19, 22);
+            lblAsterisco1.TabIndex = 21;
+            lblAsterisco1.Text = "*";
+            // 
             // cboTipoC
             // 
             cboTipoC.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
@@ -121,6 +187,7 @@
             txtTelC.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
             txtTelC.Location = new System.Drawing.Point(251, 311);
             txtTelC.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            txtTelC.MaxLength = 9;
             txtTelC.Name = "txtTelC";
             txtTelC.Size = new System.Drawing.Size(371, 30);
             txtTelC.TabIndex = 17;
@@ -284,72 +351,6 @@
             pnlRegCLeft.Name = "pnlRegCLeft";
             pnlRegCLeft.Size = new System.Drawing.Size(391, 739);
             pnlRegCLeft.TabIndex = 0;
-            // 
-            // lblAsterisco1
-            // 
-            lblAsterisco1.AutoSize = true;
-            lblAsterisco1.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
-            lblAsterisco1.ForeColor = System.Drawing.Color.Red;
-            lblAsterisco1.Location = new System.Drawing.Point(640, 158);
-            lblAsterisco1.Name = "lblAsterisco1";
-            lblAsterisco1.Size = new System.Drawing.Size(19, 22);
-            lblAsterisco1.TabIndex = 21;
-            lblAsterisco1.Text = "*";
-            // 
-            // lblAsterisco2
-            // 
-            lblAsterisco2.AutoSize = true;
-            lblAsterisco2.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
-            lblAsterisco2.ForeColor = System.Drawing.Color.Red;
-            lblAsterisco2.Location = new System.Drawing.Point(640, 239);
-            lblAsterisco2.Name = "lblAsterisco2";
-            lblAsterisco2.Size = new System.Drawing.Size(19, 22);
-            lblAsterisco2.TabIndex = 22;
-            lblAsterisco2.Text = "*";
-            // 
-            // lblAsterisco3
-            // 
-            lblAsterisco3.AutoSize = true;
-            lblAsterisco3.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
-            lblAsterisco3.ForeColor = System.Drawing.Color.Red;
-            lblAsterisco3.Location = new System.Drawing.Point(640, 319);
-            lblAsterisco3.Name = "lblAsterisco3";
-            lblAsterisco3.Size = new System.Drawing.Size(19, 22);
-            lblAsterisco3.TabIndex = 23;
-            lblAsterisco3.Text = "*";
-            // 
-            // lblAsterisco4
-            // 
-            lblAsterisco4.AutoSize = true;
-            lblAsterisco4.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
-            lblAsterisco4.ForeColor = System.Drawing.Color.Red;
-            lblAsterisco4.Location = new System.Drawing.Point(640, 393);
-            lblAsterisco4.Name = "lblAsterisco4";
-            lblAsterisco4.Size = new System.Drawing.Size(19, 22);
-            lblAsterisco4.TabIndex = 24;
-            lblAsterisco4.Text = "*";
-            // 
-            // lblAsterisco5
-            // 
-            lblAsterisco5.AutoSize = true;
-            lblAsterisco5.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
-            lblAsterisco5.ForeColor = System.Drawing.Color.Red;
-            lblAsterisco5.Location = new System.Drawing.Point(461, 471);
-            lblAsterisco5.Name = "lblAsterisco5";
-            lblAsterisco5.Size = new System.Drawing.Size(19, 22);
-            lblAsterisco5.TabIndex = 25;
-            lblAsterisco5.Text = "*";
-            // 
-            // lblAsterisco6
-            // 
-            lblAsterisco6.AutoSize = true;
-            lblAsterisco6.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
-            lblAsterisco6.ForeColor = System.Drawing.Color.Red;
-            lblAsterisco6.Location = new System.Drawing.Point(791, 473);
-            lblAsterisco6.Name = "lblAsterisco6";
-            lblAsterisco6.Size = new System.Drawing.Size(19, 22);
-            lblAsterisco6.TabIndex = 26;
-            lblAsterisco6.Text = "*";
             // 
             // frmRegistro
             // 
