@@ -27,197 +27,210 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.pnlCentro = new System.Windows.Forms.Panel();
-            this.pnlDer = new System.Windows.Forms.Panel();
-            this.picPass = new System.Windows.Forms.PictureBox();
-            this.picUser = new System.Windows.Forms.PictureBox();
-            this.picLock = new System.Windows.Forms.PictureBox();
-            this.txtPass = new System.Windows.Forms.TextBox();
-            this.txtUsuario = new System.Windows.Forms.TextBox();
-            this.btnIngresar = new System.Windows.Forms.Button();
-            this.pnlTop = new System.Windows.Forms.Panel();
-            this.picCross = new System.Windows.Forms.PictureBox();
-            this.pnlIzq = new System.Windows.Forms.Panel();
-            this.picLogo = new System.Windows.Forms.PictureBox();
-            this.pnlCentro.SuspendLayout();
-            this.pnlDer.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.picPass)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picUser)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picLock)).BeginInit();
-            this.pnlTop.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.picCross)).BeginInit();
-            this.pnlIzq.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.picLogo)).BeginInit();
-            this.SuspendLayout();
+            pnlCentro = new System.Windows.Forms.Panel();
+            pnlDer = new System.Windows.Forms.Panel();
+            picPass = new System.Windows.Forms.PictureBox();
+            picUser = new System.Windows.Forms.PictureBox();
+            picLock = new System.Windows.Forms.PictureBox();
+            txtPass = new System.Windows.Forms.TextBox();
+            txtUsuario = new System.Windows.Forms.TextBox();
+            btnIngresar = new System.Windows.Forms.Button();
+            pnlTop = new System.Windows.Forms.Panel();
+            picCross = new System.Windows.Forms.PictureBox();
+            pnlIzq = new System.Windows.Forms.Panel();
+            picLogo = new System.Windows.Forms.PictureBox();
+            pnlCentro.SuspendLayout();
+            pnlDer.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)picPass).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)picUser).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)picLock).BeginInit();
+            pnlTop.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)picCross).BeginInit();
+            pnlIzq.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)picLogo).BeginInit();
+            SuspendLayout();
             // 
             // pnlCentro
             // 
-            this.pnlCentro.BackColor = System.Drawing.Color.White;
-            this.pnlCentro.Controls.Add(this.pnlDer);
-            this.pnlCentro.Controls.Add(this.pnlIzq);
-            this.pnlCentro.Location = new System.Drawing.Point(160, 138);
-            this.pnlCentro.Name = "pnlCentro";
-            this.pnlCentro.Size = new System.Drawing.Size(971, 504);
-            this.pnlCentro.TabIndex = 0;
+            pnlCentro.BackColor = System.Drawing.Color.White;
+            pnlCentro.Controls.Add(pnlDer);
+            pnlCentro.Controls.Add(pnlIzq);
+            pnlCentro.Location = new System.Drawing.Point(160, 172);
+            pnlCentro.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            pnlCentro.Name = "pnlCentro";
+            pnlCentro.Size = new System.Drawing.Size(971, 630);
+            pnlCentro.TabIndex = 0;
             // 
             // pnlDer
             // 
-            this.pnlDer.Controls.Add(this.picPass);
-            this.pnlDer.Controls.Add(this.picUser);
-            this.pnlDer.Controls.Add(this.picLock);
-            this.pnlDer.Controls.Add(this.txtPass);
-            this.pnlDer.Controls.Add(this.txtUsuario);
-            this.pnlDer.Controls.Add(this.btnIngresar);
-            this.pnlDer.Controls.Add(this.pnlTop);
-            this.pnlDer.Dock = System.Windows.Forms.DockStyle.Right;
-            this.pnlDer.Location = new System.Drawing.Point(408, 0);
-            this.pnlDer.Name = "pnlDer";
-            this.pnlDer.Size = new System.Drawing.Size(563, 504);
-            this.pnlDer.TabIndex = 1;
+            pnlDer.Controls.Add(picPass);
+            pnlDer.Controls.Add(picUser);
+            pnlDer.Controls.Add(picLock);
+            pnlDer.Controls.Add(txtPass);
+            pnlDer.Controls.Add(txtUsuario);
+            pnlDer.Controls.Add(btnIngresar);
+            pnlDer.Controls.Add(pnlTop);
+            pnlDer.Dock = System.Windows.Forms.DockStyle.Right;
+            pnlDer.Location = new System.Drawing.Point(408, 0);
+            pnlDer.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            pnlDer.Name = "pnlDer";
+            pnlDer.Size = new System.Drawing.Size(563, 630);
+            pnlDer.TabIndex = 1;
             // 
             // picPass
             // 
-            this.picPass.Image = global::PIclubdeportivo.Properties.Resources.icons_lock_30;
-            this.picPass.Location = new System.Drawing.Point(31, 261);
-            this.picPass.Name = "picPass";
-            this.picPass.Size = new System.Drawing.Size(62, 43);
-            this.picPass.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.picPass.TabIndex = 6;
-            this.picPass.TabStop = false;
+            picPass.Image = Properties.Resources.icons_lock_30;
+            picPass.Location = new System.Drawing.Point(31, 326);
+            picPass.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            picPass.Name = "picPass";
+            picPass.Size = new System.Drawing.Size(62, 54);
+            picPass.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            picPass.TabIndex = 6;
+            picPass.TabStop = false;
             // 
             // picUser
             // 
-            this.picUser.Image = global::PIclubdeportivo.Properties.Resources.icons_user_24;
-            this.picUser.Location = new System.Drawing.Point(31, 162);
-            this.picUser.Name = "picUser";
-            this.picUser.Size = new System.Drawing.Size(62, 43);
-            this.picUser.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.picUser.TabIndex = 5;
-            this.picUser.TabStop = false;
+            picUser.Image = Properties.Resources.icons_user_24;
+            picUser.Location = new System.Drawing.Point(31, 202);
+            picUser.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            picUser.Name = "picUser";
+            picUser.Size = new System.Drawing.Size(62, 54);
+            picUser.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            picUser.TabIndex = 5;
+            picUser.TabStop = false;
             // 
             // picLock
             // 
-            this.picLock.Image = global::PIclubdeportivo.Properties.Resources.icons_lock_50;
-            this.picLock.Location = new System.Drawing.Point(229, 69);
-            this.picLock.Name = "picLock";
-            this.picLock.Size = new System.Drawing.Size(118, 64);
-            this.picLock.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.picLock.TabIndex = 4;
-            this.picLock.TabStop = false;
+            picLock.Image = Properties.Resources.icons_lock_50;
+            picLock.Location = new System.Drawing.Point(229, 86);
+            picLock.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            picLock.Name = "picLock";
+            picLock.Size = new System.Drawing.Size(118, 80);
+            picLock.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            picLock.TabIndex = 4;
+            picLock.TabStop = false;
             // 
             // txtPass
             // 
-            this.txtPass.BackColor = System.Drawing.Color.White;
-            this.txtPass.Font = new System.Drawing.Font("Courier New", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtPass.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(61)))), ((int)(((byte)(83)))));
-            this.txtPass.Location = new System.Drawing.Point(89, 261);
-            this.txtPass.MaxLength = 50;
-            this.txtPass.Name = "txtPass";
-            this.txtPass.Size = new System.Drawing.Size(432, 38);
-            this.txtPass.TabIndex = 3;
-            this.txtPass.Text = "CONTRASEÑA";
-            this.txtPass.Enter += new System.EventHandler(this.txtPass_Enter);
-            this.txtPass.Leave += new System.EventHandler(this.txtPass_Leave);
+            txtPass.BackColor = System.Drawing.Color.White;
+            txtPass.Font = new System.Drawing.Font("Courier New", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
+            txtPass.ForeColor = System.Drawing.Color.FromArgb(63, 61, 83);
+            txtPass.Location = new System.Drawing.Point(89, 326);
+            txtPass.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            txtPass.MaxLength = 50;
+            txtPass.Name = "txtPass";
+            txtPass.Size = new System.Drawing.Size(432, 38);
+            txtPass.TabIndex = 3;
+            txtPass.Text = "CONTRASEÑA";
+            txtPass.Enter += txtPass_Enter;
+            txtPass.Leave += txtPass_Leave;
             // 
             // txtUsuario
             // 
-            this.txtUsuario.BackColor = System.Drawing.Color.White;
-            this.txtUsuario.Font = new System.Drawing.Font("Courier New", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtUsuario.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(61)))), ((int)(((byte)(83)))));
-            this.txtUsuario.Location = new System.Drawing.Point(89, 162);
-            this.txtUsuario.MaxLength = 50;
-            this.txtUsuario.Name = "txtUsuario";
-            this.txtUsuario.Size = new System.Drawing.Size(432, 38);
-            this.txtUsuario.TabIndex = 2;
-            this.txtUsuario.Text = "USUARIO";
-            this.txtUsuario.Enter += new System.EventHandler(this.txtUsuario_Enter);
-            this.txtUsuario.Leave += new System.EventHandler(this.txtUsuario_Leave);
+            txtUsuario.BackColor = System.Drawing.Color.White;
+            txtUsuario.Font = new System.Drawing.Font("Courier New", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
+            txtUsuario.ForeColor = System.Drawing.Color.FromArgb(63, 61, 83);
+            txtUsuario.Location = new System.Drawing.Point(89, 202);
+            txtUsuario.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            txtUsuario.MaxLength = 50;
+            txtUsuario.Name = "txtUsuario";
+            txtUsuario.Size = new System.Drawing.Size(432, 38);
+            txtUsuario.TabIndex = 2;
+            txtUsuario.Text = "USUARIO";
+            txtUsuario.Enter += txtUsuario_Enter;
+            txtUsuario.Leave += txtUsuario_Leave;
             // 
             // btnIngresar
             // 
-            this.btnIngresar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(200)))), ((int)(((byte)(191)))));
-            this.btnIngresar.FlatAppearance.BorderSize = 0;
-            this.btnIngresar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnIngresar.Font = new System.Drawing.Font("Courier New", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnIngresar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(61)))), ((int)(((byte)(86)))));
-            this.btnIngresar.Location = new System.Drawing.Point(46, 358);
-            this.btnIngresar.Name = "btnIngresar";
-            this.btnIngresar.Size = new System.Drawing.Size(475, 58);
-            this.btnIngresar.TabIndex = 1;
-            this.btnIngresar.Text = "INGRESAR";
-            this.btnIngresar.UseVisualStyleBackColor = false;
-            this.btnIngresar.Click += new System.EventHandler(this.btnIngresar_Click);
+            btnIngresar.BackColor = System.Drawing.Color.FromArgb(56, 200, 191);
+            btnIngresar.FlatAppearance.BorderSize = 0;
+            btnIngresar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            btnIngresar.Font = new System.Drawing.Font("Courier New", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
+            btnIngresar.ForeColor = System.Drawing.Color.FromArgb(63, 61, 86);
+            btnIngresar.Location = new System.Drawing.Point(46, 448);
+            btnIngresar.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            btnIngresar.Name = "btnIngresar";
+            btnIngresar.Size = new System.Drawing.Size(475, 72);
+            btnIngresar.TabIndex = 1;
+            btnIngresar.Text = "INGRESAR";
+            btnIngresar.UseVisualStyleBackColor = false;
+            btnIngresar.Click += btnIngresar_Click;
             // 
             // pnlTop
             // 
-            this.pnlTop.Controls.Add(this.picCross);
-            this.pnlTop.Dock = System.Windows.Forms.DockStyle.Top;
-            this.pnlTop.Location = new System.Drawing.Point(0, 0);
-            this.pnlTop.Name = "pnlTop";
-            this.pnlTop.Size = new System.Drawing.Size(563, 52);
-            this.pnlTop.TabIndex = 0;
+            pnlTop.Controls.Add(picCross);
+            pnlTop.Dock = System.Windows.Forms.DockStyle.Top;
+            pnlTop.Location = new System.Drawing.Point(0, 0);
+            pnlTop.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            pnlTop.Name = "pnlTop";
+            pnlTop.Size = new System.Drawing.Size(563, 65);
+            pnlTop.TabIndex = 0;
             // 
             // picCross
             // 
-            this.picCross.Dock = System.Windows.Forms.DockStyle.Right;
-            this.picCross.Image = global::PIclubdeportivo.Properties.Resources.icons_cross_50;
-            this.picCross.Location = new System.Drawing.Point(482, 0);
-            this.picCross.Name = "picCross";
-            this.picCross.Size = new System.Drawing.Size(81, 52);
-            this.picCross.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.picCross.TabIndex = 0;
-            this.picCross.TabStop = false;
-            this.picCross.Click += new System.EventHandler(this.picCross_Click);
+            picCross.Dock = System.Windows.Forms.DockStyle.Right;
+            picCross.Image = Properties.Resources.icons_cross_50;
+            picCross.Location = new System.Drawing.Point(482, 0);
+            picCross.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            picCross.Name = "picCross";
+            picCross.Size = new System.Drawing.Size(81, 65);
+            picCross.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            picCross.TabIndex = 0;
+            picCross.TabStop = false;
+            picCross.Click += picCross_Click;
             // 
             // pnlIzq
             // 
-            this.pnlIzq.Controls.Add(this.picLogo);
-            this.pnlIzq.Dock = System.Windows.Forms.DockStyle.Left;
-            this.pnlIzq.Location = new System.Drawing.Point(0, 0);
-            this.pnlIzq.Name = "pnlIzq";
-            this.pnlIzq.Size = new System.Drawing.Size(408, 504);
-            this.pnlIzq.TabIndex = 0;
+            pnlIzq.Controls.Add(picLogo);
+            pnlIzq.Dock = System.Windows.Forms.DockStyle.Left;
+            pnlIzq.Location = new System.Drawing.Point(0, 0);
+            pnlIzq.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            pnlIzq.Name = "pnlIzq";
+            pnlIzq.Size = new System.Drawing.Size(408, 630);
+            pnlIzq.TabIndex = 0;
             // 
             // picLogo
             // 
-            this.picLogo.BackColor = System.Drawing.Color.White;
-            this.picLogo.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.picLogo.Image = global::PIclubdeportivo.Properties.Resources.clubdepor1;
-            this.picLogo.Location = new System.Drawing.Point(0, 0);
-            this.picLogo.Name = "picLogo";
-            this.picLogo.Size = new System.Drawing.Size(408, 504);
-            this.picLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.picLogo.TabIndex = 0;
-            this.picLogo.TabStop = false;
+            picLogo.BackColor = System.Drawing.Color.White;
+            picLogo.Dock = System.Windows.Forms.DockStyle.Fill;
+            picLogo.Image = Properties.Resources.clubdepor1;
+            picLogo.Location = new System.Drawing.Point(0, 0);
+            picLogo.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            picLogo.Name = "picLogo";
+            picLogo.Size = new System.Drawing.Size(408, 630);
+            picLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            picLogo.TabIndex = 0;
+            picLogo.TabStop = false;
             // 
             // frmLogin
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(200)))), ((int)(((byte)(191)))));
-            this.ClientSize = new System.Drawing.Size(1333, 827);
-            this.Controls.Add(this.pnlCentro);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.MaximizeBox = false;
-            this.MinimizeBox = false;
-            this.MinimumSize = new System.Drawing.Size(1333, 827);
-            this.Name = "frmLogin";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "LOGIN";
-            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
-            this.Load += new System.EventHandler(this.frmLogin_Load);
-            this.pnlCentro.ResumeLayout(false);
-            this.pnlDer.ResumeLayout(false);
-            this.pnlDer.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.picPass)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picUser)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picLock)).EndInit();
-            this.pnlTop.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.picCross)).EndInit();
-            this.pnlIzq.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.picLogo)).EndInit();
-            this.ResumeLayout(false);
-
+            AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
+            AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            BackColor = System.Drawing.Color.FromArgb(56, 200, 191);
+            ClientSize = new System.Drawing.Size(1333, 1034);
+            Controls.Add(pnlCentro);
+            FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            MaximizeBox = false;
+            MinimizeBox = false;
+            MinimumSize = new System.Drawing.Size(1333, 1018);
+            Name = "frmLogin";
+            StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            Text = "LOGIN";
+            WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            Load += frmLogin_Load;
+            KeyPress += frmLogin_KeyPress;
+            pnlCentro.ResumeLayout(false);
+            pnlDer.ResumeLayout(false);
+            pnlDer.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)picPass).EndInit();
+            ((System.ComponentModel.ISupportInitialize)picUser).EndInit();
+            ((System.ComponentModel.ISupportInitialize)picLock).EndInit();
+            pnlTop.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)picCross).EndInit();
+            pnlIzq.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)picLogo).EndInit();
+            ResumeLayout(false);
         }
 
         #endregion

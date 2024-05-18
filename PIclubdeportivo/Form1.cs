@@ -18,6 +18,8 @@ namespace PIclubdeportivo
         public frmLogin()
         {
             InitializeComponent();
+            this.KeyPreview = true; // Permite al formulario capturar eventos de teclas
+            this.KeyPress += new KeyPressEventHandler(frmLogin_KeyPress);
         }
 
         [DllImport("Gdi32.dll", EntryPoint = "CreateRoundRectRgn")]
@@ -44,7 +46,7 @@ namespace PIclubdeportivo
                 this.ClientSize.Height / 2 - pnlCentro.Size.Height / 2);
             pnlCentro.Anchor = AnchorStyles.None;
 
-            pnlCentro.Region = Region.FromHrgn(CreateRoundRectRgn(0, 0, pnlCentro.Width, pnlCentro.Height, 30,30));
+            pnlCentro.Region = Region.FromHrgn(CreateRoundRectRgn(0, 0, pnlCentro.Width, pnlCentro.Height, 30, 30));
         }
 
         private void txtUsuario_Enter(object sender, EventArgs e)
@@ -107,6 +109,14 @@ namespace PIclubdeportivo
                 MessageBox.Show("Usuario y/o password incorrecto", "LOGIN ERROR", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
             }
         }
+
+        private void frmLogin_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar == (char)Keys.Enter) {
+                btnIngresar.PerformClick(); // Ejecuta el clic del botón
+                e.Handled = true; // Evita que el evento se propague
+            }
+        }
     }
-    
+
 }
